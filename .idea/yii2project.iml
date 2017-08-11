@@ -35,6 +35,7 @@
     <orderEntry type="module-library">
       <library name="PHP" type="php">
         <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/almasaeed2010/adminlte" />
           <root url="file://$MODULE_DIR$/vendor/behat/gherkin" />
           <root url="file://$MODULE_DIR$/vendor/bower-asset/bootstrap" />
           <root url="file://$MODULE_DIR$/vendor/bower-asset/jquery" />
@@ -43,11 +44,14 @@
           <root url="file://$MODULE_DIR$/vendor/bower-asset/typeahead.js" />
           <root url="file://$MODULE_DIR$/vendor/bower-asset/yii2-pjax" />
           <root url="file://$MODULE_DIR$/vendor/cebe/markdown" />
+          <root url="file://$MODULE_DIR$/vendor/cebe/yii2-gravatar" />
           <root url="file://$MODULE_DIR$/vendor/codeception/base" />
           <root url="file://$MODULE_DIR$/vendor/codeception/verify" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/dmstr/yii2-adminlte-asset" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
           <root url="file://$MODULE_DIR$/vendor/ezyang/htmlpurifier" />
+          <root url="file://$MODULE_DIR$/vendor/fortawesome/font-awesome" />
           <root url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
           <root url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
           <root url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
@@ -67,6 +71,7 @@
           <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit-mock-objects" />
           <root url="file://$MODULE_DIR$/vendor/psr/http-message" />
           <root url="file://$MODULE_DIR$/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/vendor/rmrevin/yii2-fontawesome" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/comparator" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/diff" />
@@ -100,6 +105,7 @@
           <root url="file://$MODULE_DIR$/vendor/yiisoft/yii2-swiftmailer" />
         </CLASSES>
         <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/almasaeed2010/adminlte" />
           <root url="file://$MODULE_DIR$/vendor/behat/gherkin" />
           <root url="file://$MODULE_DIR$/vendor/bower-asset/bootstrap" />
           <root url="file://$MODULE_DIR$/vendor/bower-asset/jquery" />
@@ -108,11 +114,14 @@
           <root url="file://$MODULE_DIR$/vendor/bower-asset/typeahead.js" />
           <root url="file://$MODULE_DIR$/vendor/bower-asset/yii2-pjax" />
           <root url="file://$MODULE_DIR$/vendor/cebe/markdown" />
+          <root url="file://$MODULE_DIR$/vendor/cebe/yii2-gravatar" />
           <root url="file://$MODULE_DIR$/vendor/codeception/base" />
           <root url="file://$MODULE_DIR$/vendor/codeception/verify" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/dmstr/yii2-adminlte-asset" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
           <root url="file://$MODULE_DIR$/vendor/ezyang/htmlpurifier" />
+          <root url="file://$MODULE_DIR$/vendor/fortawesome/font-awesome" />
           <root url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
           <root url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
           <root url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
@@ -132,6 +141,7 @@
           <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit-mock-objects" />
           <root url="file://$MODULE_DIR$/vendor/psr/http-message" />
           <root url="file://$MODULE_DIR$/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/vendor/rmrevin/yii2-fontawesome" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/comparator" />
           <root url="file://$MODULE_DIR$/vendor/sebastian/diff" />

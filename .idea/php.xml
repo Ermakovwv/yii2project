@@ -65,6 +65,11 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/dmstr/yii2-adminlte-asset" />
+      <path value="$PROJECT_DIR$/vendor/almasaeed2010/adminlte" />
+      <path value="$PROJECT_DIR$/vendor/fortawesome/font-awesome" />
+      <path value="$PROJECT_DIR$/vendor/rmrevin/yii2-fontawesome" />
+      <path value="$PROJECT_DIR$/vendor/cebe/yii2-gravatar" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
