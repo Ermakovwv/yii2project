@@ -18,6 +18,9 @@ return [
           ],
     ],
     'components' => [
+        // Отправка писем доступна везде
+        'frontendUrlManager' => require __DIR__ . '/../../frontend/config/urlManager.php',
+        'backendUrlManager' => require __DIR__ . '/../../backend/config/urlManager.php',
         'log' => [
             'targets' => [
                 [
@@ -27,8 +30,5 @@ return [
             ],
         ],
     ],
-    // Отправка писем доступна везде
-    'frontendUrlManager' => require __DIR__ . '/../../frontend/config/urlManager.php',
-    'backendUrlManager' => require __DIR__ . '/../../backend/config/urlManager.php',
     'params' => $params,
 ];
