@@ -57,6 +57,8 @@ abstract class BaseMailer extends Component implements MailerInterface, ViewCont
      */
     public $textLayout = 'layouts/text';
     /**
+     * Можно указать все необходимые поля, которые будут применяться ко всем письмам
+     *
      * @var array the configuration that should be applied to any newly created
      * email message instance by [[createMessage()]] or [[compose()]]. Any valid property defined
      * by [[MessageInterface]] can be configured, such as `from`, `to`, `subject`, `textBody`, `htmlBody`, etc.
@@ -206,8 +208,10 @@ abstract class BaseMailer extends Component implements MailerInterface, ViewCont
             if (preg_match('~<body[^>]*>(.*?)</body>~is', $html, $match)) {
                 $html = $match[1];
             }
+
             // remove style and script
             $html = preg_replace('~<((style|script))[^>]*>(.*?)</\1>~is', '', $html);
+
             // strip all HTML tags and decoded HTML entities
             $text = html_entity_decode(strip_tags($html), ENT_QUOTES | ENT_HTML5, Yii::$app ? Yii::$app->charset : 'UTF-8');
             // improve whitespace

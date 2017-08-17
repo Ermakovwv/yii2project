@@ -29,6 +29,14 @@ return [
                 ],
             ],
         ],
+        // Используется для миграций
+        'db' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=192.168.83.137;dbname=myshop',
+            'username' => 'root',
+            'password' => '',
+            'charset' => 'utf8',
+        ],
     ],
     'params' => $params,
 ];

@@ -1,6 +1,7 @@
 <?php
 namespace frontend\tests;
 
+use common\tests\_generated;
 /**
  * Inherited Methods
  * @method void wantToTest($text)

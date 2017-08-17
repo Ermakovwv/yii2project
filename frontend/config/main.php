@@ -17,7 +17,7 @@ return [
             'cookieValidationKey' => $params['cookieValidationKey'], // Вытягиваем из параметров
         ],
         'user' => [
-            'identityClass' => 'common\models\User',
+            'identityClass' => 'myshop\entities\User',
             'enableAutoLogin' => true,
             'identityCookie' => [
                 'name' => '_identify',
